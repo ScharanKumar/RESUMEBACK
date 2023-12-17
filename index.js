@@ -3,7 +3,7 @@ const path = require("path");
 const cors = require("cors")
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
-const port = process.env.PORT || 3030
+const port = process.env.PORT || 3002
 
 
 const { open } = require("sqlite");
